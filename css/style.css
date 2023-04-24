@@ -1,13 +1,11 @@
 html{
   box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after{
   box-sizing: inherit;
 }
-
 :root {
     --background-color:#2E2F42;
     --background-light-color: #F4F4FD;
@@ -18,11 +16,9 @@ html{
     --fff: #FFFFFF;
     /* --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-
 img{
   display: block;
 }
-
 h1,
 h2,
 h3
@@ -30,19 +26,22 @@ p
 ul{
   margin: 0;
 }
-
 .header{
   border-bottom: 1px solid var(--border-buttom);
 }
-
 .header-div{
   display: flex;
 }
-
 .container{
   width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
+.header-div-nav{
+ display: flex;
+ align-items: center;
+}
 button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -57,12 +56,11 @@ body {
   background-color: var(--fff);
   color: var(--p_text);
 }
-
 .link {
   text-decoration: none;
 }
-
 .web-studio {
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -110,7 +108,6 @@ body {
   min-height: 600px;
   background: var(--background-color);
 }
-
 .all_button{
   font-family: var(--primary-font);
   font-size: 16px;
@@ -119,14 +116,11 @@ body {
   color: var(--button-color);
   background-color: var(--background-light-color);
 }
-
 .all_button:hover,
 .all_button:focus{
   color: var(--fff);
   background-color: var(--hover-link);
 }
-
-
 .solutions {
   min-height: 100px;
   font-weight: 700;
@@ -136,7 +130,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--fff);
 }
-
 .order-btn {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -151,10 +144,6 @@ body {
 .order-btn:focus {
   background-color: var(--hover-link);
 }
-
-
-
-
 /* .button {
   background-color: var(--button-color);
   font-family: "Roboto", sans-serif;
@@ -171,8 +160,6 @@ body {
 .button:focus{
   background-color:var(--button-color);
 } */
-
-
 /* //  Section 1 */
 /* Section 2 */
 .main_features {
@@ -188,7 +175,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 /* //Section 2 */
 /* Section 3 */
 .actions {
@@ -220,11 +206,9 @@ body {
   text-transform: capitalize;
   color: var(--background-color);
 }
-
 .team_items{
   background-color: var(--fff);
 }
-
 .name_and_surname {
   font-size: 20px;
   font-weight: 500;
@@ -232,8 +216,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--background-color);
-}
-.job {
+}.job {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -241,11 +224,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--p_text);
 }
-
 .main-footer {
   background: var(--background-color);
 }
-
 .studio_footer {
   color: var(--background-light-color);
 }
@@ -269,12 +250,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--background-color);
 }
-
 .item_list:hover,
 .item_list:focus{
   color: var(--hover-link);
 }
-
 .contacts_info {
   color: var(--p_text);
 }
