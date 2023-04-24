@@ -217,11 +217,16 @@ body {
   text-transform: capitalize;
   color: var(--background-color);
 }
-.action_list{
+.list{
   display: flex;
   gap: 24px;
   margin-right: 24;
   margin-right: 0;
+}
+
+.action_list{
+  
+ 
 }
 /* //Section 3 */
 /* Section 4 */
