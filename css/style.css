@@ -74,12 +74,14 @@ body {
   
 }
 /* Menu1 */
-.ul-list {
+.ul-list-menu {
   list-style: none;
   display: flex;
   gap: 40px;
 }
 .menu {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; 
