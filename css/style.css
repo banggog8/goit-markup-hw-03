@@ -129,6 +129,7 @@ body {
   background-color: var(--hover-link);
 }
 .solutions {
+  max-width: 496px;
   min-height: 100px;
   font-weight: 700;
   font-size: 56px;
@@ -138,6 +139,10 @@ body {
   color: var(--fff);
 }
 .order-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   padding: 16px 32px;
