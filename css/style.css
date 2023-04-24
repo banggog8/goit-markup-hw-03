@@ -1,3 +1,13 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
 :root {
     --background-color:#2E2F42;
     --background-light-color: #F4F4FD;
@@ -15,6 +25,7 @@ button {
   cursor: pointer;
 }
 body {
+  
   margin: auto;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -25,11 +36,7 @@ body {
 .link {
   text-decoration: none;
 }
-.header-main {
-  background-color: var(--fff);
-  font-family: "Raleway", sans-serif;
-  line-height: 1.17;
-}
+
 .web-studio {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -73,6 +80,9 @@ body {
 /* Main */
 /* Section 1 */
 .main_hero {
+  padding: 150px;
+  width: 1240px;
+  min-height: 600px;
   background: var(--background-color);
 }
 
@@ -93,30 +103,13 @@ body {
 
 
 .solutions {
-  padding: 40px;
+  min-height: 100px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--fff);
-}
-
-.button {
-  background-color: var(--button-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: var(--fff);
-}
-.button:hover,
-.button:focus{
-  background-color:var(--button-color);
 }
 
 .order-btn {
@@ -133,6 +126,32 @@ body {
 .order-btn:focus {
   background-color: var(--hover-link);
 }
+
+h1,
+h2,
+h3{
+  margin: 0;
+}
+
+
+/* .button {
+  background-color: var(--button-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--fff);
+}
+.button:hover,
+.button:focus{
+  background-color:var(--button-color);
+} */
+
+
 /* //  Section 1 */
 /* Section 2 */
 .main_features {
