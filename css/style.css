@@ -36,7 +36,11 @@ ul{
 }
 
 .header-div{
+  display: flex;
+}
 
+.container{
+  width: 1158px;
 }
 
 button {
