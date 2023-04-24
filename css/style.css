@@ -110,9 +110,9 @@ body {
 /* Main */
 /* Section 1 */
 .main_hero {
-  padding: 150px;
-  width: 1240px;
-  min-height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  min-height: 100px;
   background: var(--background-color);
 }
 .all_button{
