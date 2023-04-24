@@ -220,6 +220,8 @@ body {
 .action_list{
   display: flex;
   gap: 24px;
+  margin-right: 24;
+  margin-right: 0;
 }
 /* //Section 3 */
 /* Section 4 */
