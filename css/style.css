@@ -77,7 +77,9 @@ body {
 .menu {
   display: flex;
   gap: 40px;
-  
+  margin-right: 40px;
+  margin-right: 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; 
