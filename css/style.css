@@ -247,6 +247,8 @@ body {
   background-color:var(--fff);
 }
 .item_list{
+  display: flex;
+  gap: 40px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
