@@ -174,6 +174,13 @@ body {
 } */
 /* //  Section 1 */
 /* Section 2 */
+.section2{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section2-ul-list{
+  display: flex;
+}
 .main_features {
   font-weight: 500;
   font-size: 20px;
