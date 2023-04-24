@@ -8,6 +8,10 @@ html{
   box-sizing: inherit;
 }
 
+img{
+  display: block;
+}
+
 :root {
     --background-color:#2E2F42;
     --background-light-color: #F4F4FD;
