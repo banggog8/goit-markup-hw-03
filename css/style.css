@@ -303,4 +303,8 @@ body {
 .contacts_info {
   color: var(--p_text);
 }
+.filter_section{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
