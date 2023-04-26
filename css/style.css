@@ -313,6 +313,8 @@ body {
 }
 .partfolio_list{
   display: flex;
+  margin-right: 24px;
+  margin-right: 0;
   gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
