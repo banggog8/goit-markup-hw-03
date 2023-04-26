@@ -312,7 +312,11 @@ body {
   padding-bottom: 120px;
 }
 .list{
+  row-gap: 48px;
   flex-wrap: wrap;
   margin-bottom: 72px;
   justify-content: center;
+}
+.ul-link-filter{
+  
 }
