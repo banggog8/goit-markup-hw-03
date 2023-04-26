@@ -321,9 +321,7 @@ body {
   row-gap: 48px;
   
   margin-bottom: 72px;
-  
-  
-  
-  
 }
-
+.container-apps{
+  padding: 32px 16px;
+}
