@@ -312,6 +312,7 @@ body {
   padding-bottom: 120px;
 }
 .partfolio_list{
+  display: flex;
   gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
