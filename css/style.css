@@ -242,6 +242,7 @@ body {
   background: var(--background-light-color);
 }
 .our_team {
+  margin-bottom: 72px;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -260,6 +261,7 @@ body {
 }
 
 .name_and_surname {
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
