@@ -80,11 +80,9 @@ body {
 }
 /* Menu1 */
 .ul-list-menu {
-  justify-content: center;
   list-style: none;
   display: flex;
   gap: 40px;
-  gap: 24px;
 }
 .menu {
   padding-top: 24px;
@@ -309,4 +307,6 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-
+.list{
+  justify-content: center;
+}
