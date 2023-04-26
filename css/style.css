@@ -311,14 +311,17 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.partfolio_list{
+.portfolio_list{
   display: flex;
+  justify-content: center;
+  gap: 24px;
   margin-right: 24px;
   margin-right: 0;
-  gap: 24px;
+  
+  margin-bottom: 72px;
   row-gap: 48px;
   flex-wrap: wrap;
-  margin-bottom: 72px;
-  justify-content: center;
+  
+  
 }
 
