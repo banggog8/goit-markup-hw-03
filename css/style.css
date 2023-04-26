@@ -121,6 +121,8 @@ body {
   background: var(--background-color);
 }
 .all_button{ 
+  border: 1px solid var(--border-buttom);
+  padding-top: 12px; padding-bottom: 12px; padding-left: 24px; padding-right: 24px;
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5;
@@ -130,6 +132,8 @@ body {
 }
 .all_button:hover,
 .all_button:focus{
+  border: 1px solid transparent;
+  border-radius: 4px;
   color: var(--fff);
   background-color: var(--hover-link);
 }
@@ -308,5 +312,6 @@ body {
   padding-bottom: 120px;
 }
 .list{
+  margin-bottom: 72px;
   justify-content: center;
 }
