@@ -311,7 +311,7 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.list{
+.partfolio_list{
   gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
