@@ -183,7 +183,7 @@ body {
   color: var(--fff);
 }
 .button:hover,
-.button:focus{
+.button:focus{ 
   background-color:var(--button-color);
 } */
 /* //  Section 1 */
