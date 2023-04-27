@@ -151,7 +151,7 @@ body {
   color: var(--fff);
 }
 .portfolio_list_item_last{
-  margin-right: 0;
+  /* margin-right: 0; */
 }
 .order-btn {
   margin: 48px auto 0 auto;
