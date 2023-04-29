@@ -316,7 +316,7 @@ body {
   padding-bottom: 120px;
 }
 .portfolio_list_filters{
-  column-gap: 24px;
+  
   padding-left: 0;
   display: flex;
   justify-content: center;
@@ -328,6 +328,7 @@ body {
   margin-bottom: 72px;
 }
 .portfolio_list{
+  column-gap: 24px;
   padding-left: 0;
   display: flex;
   gap: 24px;
