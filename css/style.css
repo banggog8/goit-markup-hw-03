@@ -237,6 +237,7 @@ body {
   color: var(--background-color);
 }
 .list{
+  list-style: none;
   display: flex;
   gap: 24px;
   margin-right: 24;
@@ -346,6 +347,3 @@ body {
 
 }
 
-.portfolio_list_item_last{
-  margin-right: 0;
-}
