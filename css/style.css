@@ -238,10 +238,6 @@ body {
 }
 .list{
   list-style: none;
-  display: flex;
-  gap: 24px;
-  margin-right: 24;
-  margin-right: 0;
 }
 
 .action_list{
@@ -316,18 +312,14 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.portfolio_list_filters:not(:last-child) {
-  margin-right: 24px；
-  margin-right: 24px;
-  padding-left: 0;
+.portfolio_list_filters {
   display: flex;
   justify-content: center;
-  margin-right: 24px;
-  margin-right: 0;
-  flex-wrap: wrap;
-  row-gap: 48px;
+  gap:24px;
+  padding-left: 0;
   margin-bottom: 72px;
-}
+  margin-right: 24px；
+  }
 .portfolio_list{
   column-gap: 24px;
   padding-left: 0;
