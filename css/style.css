@@ -316,7 +316,8 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.portfolio_list_filters{
+.portfolio_list_filters:not(:last-child) {
+  margin-right: 24px；
   margin-right: 24px;
   padding-left: 0;
   display: flex;
