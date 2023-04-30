@@ -240,8 +240,9 @@ body {
   list-style: none;
 }
 
-.action_list{
+.ul_actions{
   display: flex;
+  padding-left: 0;
   gap: 24px; 
   margin-right: 24px;
   margin-right: 0;
