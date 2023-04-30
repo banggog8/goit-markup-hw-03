@@ -255,6 +255,7 @@ body {
   background: var(--background-light-color);
 }
 .our_team {
+  
   margin-bottom: 72px;
   font-style: normal;
   font-weight: 700;
@@ -265,8 +266,12 @@ body {
   text-transform: capitalize;
   color: var(--background-color);
 }
-.team_items{
+.ul_team{
   display: flex;
+  gap: 24px;
+  padding-left: 0;
+}
+.team_items{
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--fff);
