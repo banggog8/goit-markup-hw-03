@@ -317,11 +317,10 @@ body {
   padding-bottom: 120px;
 }
 .portfolio_list_filters{
-  
+  margin-right: 24px;
   padding-left: 0;
   display: flex;
   justify-content: center;
-  gap: 24px;
   margin-right: 24px;
   margin-right: 0;
   flex-wrap: wrap;
