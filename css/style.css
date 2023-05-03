@@ -30,15 +30,16 @@ ul{
 .header{
   border-bottom: 1px solid var(--border-buttom);
 }
-.header-div{
+/* .header-div{
  
-  display: flex;
-  justify-content: space-between;
-}
+  
+} */
 .container{
   width: 1158px;
   margin: 0 auto;
   padding: 24px 0px 24px 0px;
+  display: flex;
+  justify-content: space-between;
   padding-left: 15px;
   padding-right: 15px;
 }
