@@ -31,16 +31,15 @@ ul{
   border-bottom: 1px solid var(--border-buttom);
 }
 .header-div{
-  
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 .container{
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding: 24px 0px 24px 0px;
-  display: flex;
-  justify-content: space-between;
 }
 .header-div-nav{
  display: flex;
@@ -194,7 +193,7 @@ body {
 /* //  Section 1 */
 /* Section 2 */
 .section_features{
-  padding-top: 120px;
+  padding-top: 10px;
   padding-bottom: 120px;
 }
 .features-ul-list{
