@@ -30,16 +30,14 @@ ul{
 .header{
   border-bottom: 1px solid var(--border-buttom);
 }
-/* .header-div{
- 
-  
-} */
-.container{
-  width: 1158px;
-  margin: 0 auto;
+.header-div{
   padding: 24px 0px 24px 0px;
   display: flex;
   justify-content: space-between;
+}
+.container{
+  width: 1158px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -217,7 +215,7 @@ body {
   color: var(--background-color);
 }
 .hidden {
-  visibility: hidden;
+   visibility: hidden;
   pointer-events: none;
   position: absolute;
 }
