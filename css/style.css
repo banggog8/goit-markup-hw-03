@@ -31,7 +31,7 @@ ul{
   border-bottom: 1px solid var(--border-buttom);
 }
 .header-div{
-  padding: 24px 0;
+  padding: 24px 0px 24px 0px;
   display: flex;
   justify-content: space-between;
 }
@@ -88,6 +88,7 @@ body {
   padding: 0;
 }
 .menu {
+  padding: 24px 0;
   margin: auto;
   font-weight: 500;
   font-size: 16px;
