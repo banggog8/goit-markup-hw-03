@@ -21,16 +21,19 @@ img{
 }
 h1,
 h2,
-h3
-p
+h3,
+p,
 ul{
   margin: 0;
+  padding: 0;
 }
 .header{
   border-bottom: 1px solid var(--border-buttom);
 }
 .header-div{
+  padding: 24px 0px 24px 0px;
   display: flex;
+  justify-content: space-between;
 }
 .container{
   width: 1158px;
@@ -60,7 +63,7 @@ body {
   text-decoration: none;
 }
 .web-studio {
-  margin-bottom: 16px;
+  margin: auto;
   display: inline-block;
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
@@ -83,10 +86,10 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
+  padding: 0;
 }
 .menu {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; 
@@ -190,7 +193,7 @@ body {
 /* //  Section 1 */
 /* Section 2 */
 .section_features{
-  padding-top: 120px;
+  padding-top: 130px;
   padding-bottom: 120px;
 }
 .features-ul-list{
@@ -204,13 +207,17 @@ body {
   list-style-type: none;
 }
 .main_features {
-   
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--background-color);
+}
+.hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 .main_parag {
   font-size: 16px;
@@ -310,6 +317,10 @@ body {
   line-height: 1.5;
  letter-spacing: 0.02em;
   color: var(--background-light-color);
+}
+.web-studio-footer{
+  margin: 0;
+  margin-bottom: 17.5px;
 }
 /* Portfolio */
 .main-hero {
