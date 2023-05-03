@@ -193,8 +193,7 @@ body {
 /* //  Section 1 */
 /* Section 2 */
 .section_features{
-  padding-top: 10px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .features-ul-list{
   display: flex;
