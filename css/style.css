@@ -290,9 +290,6 @@ body {
   margin-bottom: 16px;
 }
 /* Portfolio */
-.main-hero {
-  background-color:var(--fff);
-}
 .filter-section{
   padding-top: 96px;
   padding-bottom: 120px;
