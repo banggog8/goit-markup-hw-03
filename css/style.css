@@ -52,7 +52,6 @@ button {
   cursor: pointer;
 }
 body {
-  
   margin: auto;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -78,8 +77,7 @@ body {
 }
 .web-studio {
   color: var(--background-color);
-  
-}
+  }
 /* Menu1 */
 .ul-list-menu {
   list-style: none;
@@ -106,40 +104,23 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts_info{
+.contacts-info{
   color: var(--p_text);
 }
-.contacts_info:hover,
-.contacts_info:focus{
+.contacts-info:hover,
+.contacts-info:focus{
   color: var(--hover-link);
 }
 /* Main */
 /* Section 1 */
-.main_hero {
+.main-hero {
   padding-top: 188px;
   padding-bottom: 188px;
   min-height: 100px;
   background: var(--background-color);
 }
-.all_button{ 
-  border: 1px solid var(--border-buttom);
-  padding-top: 12px; padding-bottom: 12px; padding-left: 24px; padding-right: 24px;
-  font-family: var(--primary-font);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--button-color);
-  background-color: var(--background-light-color);
-}
-.all_button:hover,
-.all_button:focus{
-  border: 1px solid transparent;
-  border-radius: 4px;
-  color: var(--fff);
-  background-color: var(--hover-link);
-}
+
 .solutions {
-  /* margin-bottom: 48px; */
   margin-left: auto;
   margin-right: auto;
   max-width: 496px;
@@ -151,7 +132,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--fff);
 }
-
 .order-btn {
   margin: 48px auto 0 auto;
   display: block;
@@ -172,25 +152,9 @@ body {
 .order-btn:focus {
   background-color: var(--hover-link);
 }
-/* .button {
-  background-color: var(--button-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: var(--fff);
-}
-.button:hover,
-.button:focus{ 
-  background-color:var(--button-color);
-} */
 /* //  Section 1 */
 /* Section 2 */
-.section_features{
+.section-features{
   padding: 120px 0;
 }
 .features-ul-list{
@@ -203,7 +167,7 @@ body {
   width: calc((100% - 72px) / 4);
   list-style-type: none;
 }
-.main_features {
+.main-features {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -223,19 +187,6 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-
 .main-parag {
   font-size: 16px;
   line-height: 1.5;
@@ -248,7 +199,7 @@ body {
   padding-bottom: 120px;
   background: var(--fff);
 }
-.main_actions {
+.main-actions {
   margin-bottom: 72px;
   font-family: "Roboto";
   font-style: normal;
@@ -264,7 +215,7 @@ body {
   list-style: none;
 }
 
-.ul_actions{
+.ul-actions{
   display: flex;
   padding-left: 0;
   gap: 24px; 
@@ -278,8 +229,7 @@ body {
   padding-bottom: 120px;
   background: var(--background-light-color);
 }
-.our_team {
-  
+.our-team {
   margin-bottom: 72px;
   font-style: normal;
   font-weight: 700;
@@ -290,21 +240,21 @@ body {
   text-transform: capitalize;
   color: var(--background-color);
 }
-.ul_team{
+.ul-team{
   display: flex;
   gap: 24px;
   padding-left: 0;
 }
-.team_items{
+.team-items{
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--fff);
 }
-.div_team_items{
+.div-team-items{
   padding: 32px 16px;
 }
 
-.name_and_surname {
+.name-and-surname {
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
@@ -343,14 +293,11 @@ body {
 .main-hero {
   background-color:var(--fff);
 }
-.contacts_info {
-  color: var(--p_text);
-}
-.filter_section{
+.filter-section{
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.portfolio_list_filters {
+.portfolio-list-filters {
   display: flex;
   justify-content: center;
   gap:24px;
@@ -358,7 +305,7 @@ body {
   margin-bottom: 72px;
   margin-right: 24px；
   }
-.portfolio_list{
+.portfolio-list{
   column-gap: 24px;
   padding-left: 0;
   display: flex;
@@ -373,7 +320,24 @@ body {
   border: 1px solid var(--border-buttom);
   border-top: none;
 }
-.portfolio_list_item{
-
+.all-button{ 
+  border: 1px solid var(--border-buttom);
+  padding-top: 12px; padding-bottom: 12px; padding-left: 24px; padding-right: 24px;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background-color: var(--background-light-color);
 }
+.all-button:hover,
+.all-button:focus{
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--fff);
+  background-color: var(--hover-link);
+}
+/* .portfolio_list_item{
+
+} */
 
